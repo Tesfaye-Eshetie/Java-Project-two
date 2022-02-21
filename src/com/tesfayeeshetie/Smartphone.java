@@ -29,7 +29,7 @@ public class Smartphone {
     }
 
     public void onlyShowAndroid() {
-        if (operatingSys == "android") {
+        if (operatingSys.equalsIgnoreCase("android" )) {
             System.out.printf(
                     "Manufactured: %s, " +
                             "Model: %s, " +

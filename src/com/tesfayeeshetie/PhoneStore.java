@@ -14,16 +14,16 @@ public class PhoneStore {
     public void show() {
         System.out.printf("%nName: %s, Address: %s,%n Inventory of Smartphones from this store: %n"
                 , name, address);
-        for (int i = 0; i < inventory.length; i++) {
-            inventory[i].show();
+        for (Smartphone phone: inventory) {
+            phone.show();
         }
     }
 
     public void showAndroid() {
         System.out.printf("%nName: %s, Address: %s,%n Show only Android phones from this store: %n"
                 , name, address);
-        for (int i = 0; i < inventory.length; i++) {
-            inventory[i].onlyShowAndroid();
+        for (Smartphone androidPhone: inventory) {
+            androidPhone.onlyShowAndroid();
         }
     }
 }

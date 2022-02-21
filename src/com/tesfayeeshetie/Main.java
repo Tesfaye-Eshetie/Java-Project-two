@@ -6,13 +6,13 @@ public class Main {
         Smartphone one = new Smartphone("apple", "iphone 12",
                 "ios", 128, "black", 2, 699.00);
         Smartphone two = new Smartphone("samsung", "galaxy note",
-                "android", 256, "mystic bronze", 3, 349.00);
+                "Android", 256, "mystic bronze", 3, 349.00);
         Smartphone three = new Smartphone("samsung", "Galaxy S21 Ultra",
-                "android", 128000, "Burgundy", 3, 1199.99);
+                "Android", 128000, "Burgundy", 3, 1199.99);
         Smartphone four = new Smartphone("samsung", "Galaxy S21 Ultra",
-                "android", 128, "Navy", 3, 1199.99 );
+                "Android", 128, "Navy", 3, 1199.99 );
         Smartphone five = new Smartphone("Google", "Pixel 6 Pro",
-                "android", 256, "Cloudy White", 2, 899);
+                "Android", 256, "Cloudy White", 2, 899);
         Smartphone six = new Smartphone("Apple", "iPhone 13",
                 "ios", 128, "Blue", 2, 1299.99);
 
