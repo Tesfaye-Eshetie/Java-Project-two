@@ -1,14 +1,17 @@
 package com.tesfayeeshetie;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PhoneStore {
     String name;            // name of the store
     String address;            // street address of the store
-    Smartphone[] inventory;    // inventory of Smartphones in this store
+    List<Smartphone> inventory;    // inventory of Smartphones in this store
 
     public PhoneStore(String name, String address) {
         this.name = name;
         this.address = address;
-        this.inventory = new Smartphone[3];
+        this.inventory = new ArrayList<Smartphone>();
     }
 
     public void show() {

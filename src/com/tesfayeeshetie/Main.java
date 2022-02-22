@@ -26,22 +26,27 @@ public class Main {
 //        three.onlyShowAndroid();
 
         PhoneStore store1 = new PhoneStore("Best Buy", "123 Main St, NY, NY, 10010");
-        store1.inventory[0] = one;
-        store1.inventory[1] = two;
-        store1.inventory[2] = three;
+        store1.inventory.add(one);
+        store1.inventory.add(two);
+        store1.inventory.add(three);
         store1.show();
+        store1.showAndroid();
 
         PhoneStore store2 = new PhoneStore("Walmart", "1001 Shiloh Glenn Dr, Cary, NC 27661");
-        store2.inventory[0] = five;
-        store2.inventory[1] = four;
-        store2.inventory[2]= one;
+        store2.inventory.add(five);
+        store2.inventory.add(four);
+        store2.inventory.add(one);
+        store2.inventory.add(six);
         store2.show();
         store2.showAndroid();
 
         PhoneStore store3 = new PhoneStore("T-mobile", "189 Grand Hill pl, Holly Springs, Nc 27591");
-        store3.inventory[0] = six;
-        store3.inventory[1] = one;
-        store3.inventory[2] = four;
+        store3.inventory.add(one);
+        store3.inventory.add(two);
+        store3.inventory.add(three);
+        store3.inventory.add(four);
+        store3.inventory.add(five);
+        store3.inventory.add(six);
         store3.show();
         store3.showAndroid();
 
