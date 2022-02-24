@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PhoneStore {
-    String name;            // name of the store
-    String address;            // street address of the store
+    private String name;            // name of the store
+    private String address;            // street address of the store
     List<Smartphone> inventory;    // inventory of Smartphones in this store
 
     public PhoneStore(String name, String address) {
         this.name = name;
         this.address = address;
-        this.inventory = new ArrayList<Smartphone>();
+        this.inventory = new ArrayList<>();
     }
 
     public void show() {

@@ -8,7 +8,7 @@ public class Main {
         Smartphone two = new Smartphone("samsung", "galaxy note",
                 "Android", 256, "mystic bronze", 3, 349.00);
         Smartphone three = new Smartphone("samsung", "Galaxy S21 Ultra",
-                "Android", 128000, "Burgundy", 3, 1199.99);
+                "Android", 128, "Burgundy", 3, 1199.99);
         Smartphone four = new Smartphone("samsung", "Galaxy S21 Ultra",
                 "Android", 128, "Navy", 3, 1199.99 );
         Smartphone five = new Smartphone("Google", "Pixel 6 Pro",
@@ -16,14 +16,13 @@ public class Main {
         Smartphone six = new Smartphone("Apple", "iPhone 13",
                 "ios", 128, "Blue", 2, 1299.99);
 
-//        one.show();
-//        two.show();
-//        three.show();
+        one.show();
+        two.show();
+        three.show();
 
-//
-//        one.onlyShowAndroid();
-//        two.onlyShowAndroid();
-//        three.onlyShowAndroid();
+        one.onlyShowAndroid();
+        two.onlyShowAndroid();
+        three.onlyShowAndroid();
 
         PhoneStore store1 = new PhoneStore("Best Buy", "123 Main St, NY, NY, 10010");
         store1.inventory.add(one);
